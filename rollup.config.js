@@ -7,7 +7,7 @@ import {replaceImportMetaEnvDev} from './replace-import-meta.js';
 export default [
 	{
 		input: './src/content.ts',
-		output: {file: './content.js', format: 'es'},
+		output: {dir: './lib', /*file: './content.js'*/ format: 'es'},
 		plugins: [
 			nodeResolve(),
 			ts(),
