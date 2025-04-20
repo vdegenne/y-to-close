@@ -1,6 +1,6 @@
 import {MiniGamepad, Mode} from '@vdegenne/mini-gamepad';
 
-const minigp = new MiniGamepad();
+const minigp = new MiniGamepad({toastModel: false});
 
 minigp.onConnect((gamepad) => {
 	const {RIGHT_BUTTONS_TOP} = gamepad.mapping;
