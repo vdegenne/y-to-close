@@ -7,7 +7,7 @@
 			"matches": ["<all_urls>"],
 			"js": [
 				"content.js",
-				"./node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-ce.js"
+				"./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"
 			]
 		}
 	]
