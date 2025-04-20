@@ -6,8 +6,7 @@
 		"@rollup/plugin-node-resolve": "^16.0.1",
 		"@rollup/plugin-terser": "^0.4.4",
 		"@rollup/plugin-typescript": "^12.1.2",
-		"@vdegenne/mini-gamepad": "^0.2.5",
-		"@webcomponents/webcomponentsjs": "^2.8.0",
+		"@vdegenne/mini-gamepad": "^0.2.6",
 		"rollup": "^4.40.0",
 		"tslib": "^2.8.1",
 		"typescript": "^5.8.3"
