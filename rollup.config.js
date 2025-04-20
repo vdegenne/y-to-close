@@ -1,6 +1,7 @@
 import {nodeResolve} from '@rollup/plugin-node-resolve';
 import ts from '@rollup/plugin-typescript';
 import terser from '@rollup/plugin-terser';
+import {replaceImportMetaEnvDev} from './replace-import-meta';
 
 /** @type {import('rollup').RollupOptions} */
 export default [
@@ -15,6 +16,7 @@ export default [
 					comments: false,
 				},
 			}),
+			replaceImportMetaEnvDev(),
 		],
 	},
 ];
